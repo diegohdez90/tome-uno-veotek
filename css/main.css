@@ -1,0 +1,36 @@
+body{
+	background-color: rgb(0,172,200);
+	font-size: 11px;
+}
+
+.ticket, .turno{
+	background-color: #fff;
+}
+
+.print{
+	color: rgb(0,172,200);
+}
+
+div .veotek-logo{
+	transform: rotateZ(-90deg) translate(-83px);
+}
+
+.print-veotek{
+	height: 241px;
+}
+
+.buttom{
+	padding: 0;
+	color: rgb(0,172,200);
+	background-color: rgb(253,130,4);
+	font-weight: 600;
+}
+
+.result{
+	background-color: white;
+	color: rgb(0,172,200);
+}
+
+.print{
+	cursor: pointer;
+}
