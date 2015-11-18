@@ -1,3 +1,14 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+
 <?php
 
 	include("connection.php");
@@ -16,15 +27,7 @@
 	}
 ?>
 
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-</head>
+
 
 <body>
 	<div class="container">

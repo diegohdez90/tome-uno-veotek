@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="icon" href="img/eo.ico" type="image/gif" sizes="16x16">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <META HTTP-EQUIV="REFRESH" CONTENT="2;URL=index.php">
 </head>
