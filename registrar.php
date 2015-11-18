@@ -22,12 +22,12 @@
 	if ($result) {
 		die("<div class='container'><div class='row result'><img class='veotek' src='img/veotek.png' width='100%''><h3 class='text-center'>Generando siguiente ticket</h3></div></div>");
 ?>
-	<script type="text/javascript">
+<!--	<script type="text/javascript">
 		$('.buttom').click(function(){
 			$('.print').css("pointer-events", "auto");
 			$('.buttom').prop("disabled",true);
 		});
-	</script>
+	</script>-->
 <?php
 	}
 ?>

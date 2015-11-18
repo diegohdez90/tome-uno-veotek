@@ -6,7 +6,6 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <?php
@@ -42,12 +41,12 @@
 						<img class="veotek" src="img/veotek.png" width="150%">
 					</div>
 					<div class="col-md-6">
-						<p class="text-center"><span onclick="window.print()" class="glyphicon glyphicon-print print" style="font-size:44px;"></span></a><br>
-		                        Imprimir</p>
+						<p class="text-center"><a href="registrar.php"><span onclick="window.print()" class="glyphicon glyphicon-print print" style="font-size:44px;"></span></a><br>
+		                        Imprimir</p></a>
 		                <p class="text-center">
 	                        <form method="post" action="registrar.php" enctype="multipart/form-data">
 								<div class="form-group">
-									<input class="form-control buttom" type="submit" value="Nuevo">
+									<input class="form-control buttom" type="submit" value="Imprimir" onclick="window.print()">
 								</div>
 							</form>
 						</p>
