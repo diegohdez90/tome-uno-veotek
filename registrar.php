@@ -20,7 +20,7 @@
 	$result = mysql_query($insert, $con) or die(mysql_error());
 
 	if ($result) {
-		die("<div class='container'><div class='row result'><img class='veotek' src='img/veotek.png' width='100%''><h3 class='text-center'>Generando siguiente ticket</h3></div></div>");
+		die("<div class='container'><div class='row result'><img class='veotek' src='img/veotek.png' width='100%''><h3 class='text-center'>Tome su ticket por favor</h3></div></div>");
 ?>
 <!--	<script type="text/javascript">
 		$('.buttom').click(function(){

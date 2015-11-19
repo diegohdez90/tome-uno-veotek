@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<META HTTP-EQUIV="REFRESH" CONTENT="5;URL=siguiente.php">
+<META HTTP-EQUIV="REFRESH" CONTENT="3;URL=siguiente.php">
 </head>
 
 
@@ -19,7 +19,7 @@
 	$exec_query = mysql_query($query,$con);
 	
 	if(mysql_num_rows($exec_query)==0){
-		die("<div class='container'><div class='row result'><img class='veotek' src='img/veotek.png' width='100%''><h3 class='text-center'>No hay clientes esperando. Por favor actualiza la pantalla.</h3></div></div>");
+		die("<div class='container'><div class='row result'><img class='veotek' src='img/veotek.png' width='100%''><h3 class='text-center'>No hay clientes esperando.</h3></div></div>");
 	}
 	else{
 		while ($rs = mysql_fetch_assoc($exec_query)) {

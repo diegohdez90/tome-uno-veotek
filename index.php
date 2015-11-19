@@ -65,7 +65,7 @@
 				</p>
 				<h4 class="text-center">Bienvenido</h4>
 				<p class="text-center">
-					Tu Turno es:
+					Su Turno es:
 					<h3 class="text-center"><?php echo $id; ?></h3>
 				</p>
 				<p class="text-center">
