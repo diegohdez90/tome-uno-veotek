@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<META HTTP-EQUIV="REFRESH" CONTENT="5;URL=siguiente.php">
 </head>
 
 
@@ -35,10 +36,10 @@
 			<h3 class="text-center">Turno:</h3>
 			<p>
 				<h2 class="text-center"><?php echo $id; ?></h2>
-				<form method="post" action="atendido.php">
+				<!--<form method="post" action="atendido.php">
 					<input type="hidden" name="id" value="<?php echo $id; ?>">
 					<input type="submit">
-				</form>
+				</form>-->
 			</p>
 		</div>
 	</div>

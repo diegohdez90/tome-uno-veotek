@@ -29,8 +29,29 @@ div .veotek-logo{
 .result{
 	background-color: white;
 	color: rgb(0,172,200);
+	height: 100%;
 }
 
 .print{
 	cursor: pointer;
+}
+
+.turno{
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5 .turno{
+	font-size: 200px;
+}
+
+h1, h2, h3, h4, h5 .result{
+	font-size: 100px;
+}
+
+.ticket h4{
+	font-size: 18px;
+}
+
+.ticket h3{
+	font-size: 24px;
 }

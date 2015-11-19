@@ -11,10 +11,6 @@
 <?php
 	include('connection.php');
 
-	$fecha = date("Y-m-d");
-
-	$hora = date("H:i:s");
-
 	$id = $_POST['id'];
 	
 	$update = "update ticket set atendido=TRUE where idticket = '$id'";
