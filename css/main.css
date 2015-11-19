@@ -37,7 +37,9 @@ div .veotek-logo{
 }
 
 .turno{
-	height: 100%;
+	/*height: 100%;*/
+	text-align: center;
+	color: rgb(253,130,4);
 }
 
 h1, h2, h3, h4, h5 .turno{
@@ -54,4 +56,16 @@ h1, h2, h3, h4, h5 .result{
 
 .ticket h3{
 	font-size: 24px;
+}
+
+div .l{
+	transform: rotateZ(-90deg) translate(-153px);
+	background-color: #fff;
+	text-align: center;
+}
+
+div .r{
+	transform: rotateZ(90deg) translate(78px);
+	background-color: #fff;
+	text-align: center;
 }
