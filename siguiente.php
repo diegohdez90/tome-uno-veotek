@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<META HTTP-EQUIV="REFRESH" CONTENT="5;URL=siguiente.php">
 </head>
 
 

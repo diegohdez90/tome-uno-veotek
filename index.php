@@ -56,7 +56,6 @@
 			</div>
 			<div class="col-md-2 ticket ticket-veotek">
 				<img class="veotek" src="img/veotek.png" width="100%">
-				<h4 class="text-center">Bienvenido</h4>
 				<p class="text-center">
 					<span><small>Calle 3 Sur Altos
 						Col. Centro, <br>C.P. 72000
@@ -64,6 +63,7 @@
 						242 07 82 - 232 19 02
 					</small></span>
 				</p>
+				<h4 class="text-center">Bienvenido</h4>
 				<p class="text-center">
 					Tu Turno es:
 					<h3 class="text-center"><?php echo $id; ?></h3>
