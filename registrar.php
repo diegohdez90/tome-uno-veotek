@@ -15,7 +15,9 @@
 
 	$hora = date("H:i:s");
 
-	$insert = "insert into ticket(hora,fecha,atendido) values('$hora','$fecha',FALSE)";
+    $folio = $_GET['folio'];
+
+	$insert = "insert into ticket(folio,hora,fecha,atendido) values('$folio','$hora','$fecha',FALSE)";
 
 	$result = mysql_query($insert, $con) or die(mysql_error());
 

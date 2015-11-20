@@ -14,15 +14,20 @@
 	/* Seleccionar el último registro*/
 	$query = "select * from ticket order by idticket desc limit 1"; 
 	$exec_query = mysql_query($query,$con);
-	
-	if(mysql_num_rows($exec_query)==0){
-		$id = 1;
-	}
-	else{
-		while ($rs = mysql_fetch_assoc($exec_query)) {
-			$lastid=$rs['idticket']; 
+	if(mysql_num_rows($exec_query)!=0){
+		while($rs = mysql_fetch_assoc($exec_query)){
+			$fecha = $rs["fecha"];
+			$lastid=$rs['folio']; 
+		}
+		$hoy = date("Y-m-d");
+		if($fecha!=$hoy){
+			$id = 1;
+		}
+		else{
 			$id=$lastid+1;
-		}		
+		}
+	}else{
+		$id=1;
 	}
 ?>
 
@@ -41,11 +46,10 @@
 						<img class="veotek" src="img/veotek.png" width="150%">
 					</div>
 					<div class="col-md-6">
-						<p class="text-center"><a href="registrar.php"><span onclick="window.print()" class="glyphicon glyphicon-print print" style="font-size:44px;"></span></a><br>
-		                        Imprimir</p></a>
 		                <p class="text-center">
-	                        <form method="post" action="registrar.php" enctype="multipart/form-data">
+	                        <form method="get" action="registrar.php" enctype="multipart/form-data">
 								<div class="form-group">
+									<input type="hidden" name="folio" value="<?php echo $id; ?>">
 									<input class="form-control buttom" type="submit" value="Imprimir" onclick="window.print()">
 								</div>
 							</form>

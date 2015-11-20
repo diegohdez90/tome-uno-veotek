@@ -23,7 +23,7 @@
 	}
 	else{
 		while ($rs = mysql_fetch_assoc($exec_query)) {
-			$id = $rs['idticket'];
+			$id = $rs['folio'];
 		}		
 	}
 ?>
